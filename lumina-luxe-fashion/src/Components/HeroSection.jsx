@@ -1,6 +1,6 @@
-import heroVideo from "../../Assets/Videos/HeroSection.mp4";
-import logo from "../../Assets/Images/logo.png";
-import heroImage from "../../Assets/Images/heroSection.jpg";
+import heroVideo from "../Assets/Videos/HeroSection.mp4";
+import logo from "../Assets/Images/logo.png";
+import heroImage from "../Assets/Images/heroSection.jpg";
 
 function HeroSection() {
 	return (
