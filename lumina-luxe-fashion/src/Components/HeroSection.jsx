@@ -18,14 +18,15 @@ function HeroSection() {
 			</div>
 
 			<div>
-				<div className="absolute inset-0 -z-10 bg-gradient-to-bf from-transparent from-70% to-black">
+				<div className="absolute inset-0 -z-10 bg-gradient-to-bl from-transparent from-60% to-black">
 					<div className="relative -z-20 flex h-screen flex-col justify-end pb-20">
-						<img
+						<span className="flex items-center justify-center"><img
 							src={logo}
 							alt="Lumina Luxe"
-							className="w-full p-10"
+							className="w-[70vw] p-4"
 						/>
-						<p className="pl-10 text-lg tracking-widest text-white uppercase">
+						</span>
+						<p className="text-sm tracking-[.3rem] text-white uppercase pl-[15.5rem]">
 							India
 						</p>
 					</div>
