@@ -1,3 +1,5 @@
+@import url(./Assets/Fonts.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,10 +9,12 @@
 	padding: 0%;
 	box-sizing: border-box;
 }
-:root{
-  --background: #141619;
+:root {
+	--background: #141619;
 }
 
-html, body {
-  background-color: var(--background);
+html,
+body {
+	font-family: switzer;
 }
+
