@@ -5,7 +5,7 @@ import heroImage from "../Assets/Images/heroSection.jpg";
 function HeroSection() {
 	return (
 		<section className="relative flex h-screen items-center justify-center">
-			<div className="absolute inset-0 -z-20 h-full overflow-hidden">
+			<div className="absolute inset-0 -z-100 h-full overflow-hidden">
 				<video
 					src={heroVideo}
 					muted
@@ -18,8 +18,8 @@ function HeroSection() {
 			</div>
 
 			<div>
-				<div className="absolute inset-0 -z-10 bg-gradient-to-bl from-transparent from-60% to-black">
-					<div className="relative -z-20 flex h-screen flex-col justify-end pb-20">
+				<div className="absolute inset-0  bg-gradient-to-bl from-transparent from-55% to-black">
+					<div className="relative z-20 flex h-screen flex-col justify-end pb-20">
 						<span className="flex items-center justify-center"><img
 							src={logo}
 							alt="Lumina Luxe"
