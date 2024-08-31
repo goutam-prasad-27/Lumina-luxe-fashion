@@ -1,7 +1,8 @@
 import React from "react";
 import HeroSection from "./Components/HeroSection";
 import Navbar from "./Components/Navbar";
-import Cloths from "./Components/Cloths";
+import ClothingSection from "./Components/ClothingSection";
+import AboutSection from "./Components/AboutSection";
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
 		<main className="overflow-y-hidden text-neutral-200 antialiased">
 			<HeroSection/>
 			<Navbar/>
-			<Cloths/>
+			<ClothingSection/>
+			<AboutSection/>
 		</main>
 	);
 }
