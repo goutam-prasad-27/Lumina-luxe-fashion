@@ -1,10 +1,16 @@
 import React from "react";
+import HeroSection from "./Components/HeroSection";
+import Navbar from "./Components/Navbar";
+import Cloths from "./Components/Cloths";
+
 
 function App() {
 	return (
-		<>
-			<h1 className="text-3xl font-bold underline text-white">Hello world!</h1>
-		</>
+		<main className="overflow-y-hidden text-neutral-200 antialiased">
+			<HeroSection/>
+			<Navbar/>
+			<Cloths/>
+		</main>
 	);
 }
 
