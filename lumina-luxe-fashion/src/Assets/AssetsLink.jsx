@@ -19,7 +19,7 @@ export const Links = [
 	{ text: "Clothing", targetId: "clothing" },
 	{ text: "About", targetId: "about" },
 	{ text: "Mission", targetId: "mission" },
-	{ text: "Expertise", targetId: "expertise" },
+	{ text: "Shopping", targetId: "shopping" },
 	{ text: "Review", targetId: "review" },
 	{ text: "Contact", targetId: "contact" },
 ];
