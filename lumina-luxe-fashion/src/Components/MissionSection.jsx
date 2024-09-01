@@ -6,7 +6,7 @@ function MissionSection() {
 	return (
 		<section id="mission">
 			<div className="container mx-auto text-center">
-				<h2 className="mb-4 text-3xl lg:text-4xl">Our Mission</h2>
+				<h2 className="mb-4 text-3xl lg:text-4xl tracking-[.2rem] ">Our Mission</h2>
 				<div className="relative flex items-center justify-center">
 					<video
 						autoPlay

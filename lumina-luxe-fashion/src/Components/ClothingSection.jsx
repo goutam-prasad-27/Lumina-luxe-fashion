@@ -4,7 +4,7 @@ import ClothCard from "./ClothCard";
 function ClothingSection() {
 	return (
 		<section className="container mx-auto py-16" id="clothing">
-			<h2 className="mb-8 text-center text-3xl tracking-[.2rem] lg:text-4xl text-gray-500">
+			<h2 className="mb-8 text-center text-3xl tracking-[.2rem] lg:text-4xl">
 				Our Clothings
 			</h2>
 
