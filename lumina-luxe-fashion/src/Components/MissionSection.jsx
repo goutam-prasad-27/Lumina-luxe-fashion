@@ -18,7 +18,7 @@ function MissionSection() {
 					>
 						<source src={missionVideo} type="video/mp4" />
 					</video>
-					<div className="absolute h-full w-[90rem]  rounded-3xl bg-[#141619]/70"></div>
+					<div className="absolute h-full w-[90rem] rounded-3xl bg-[#141619]/70"></div>
 					<p className="absolute max-w-lg tracking-[.1rem] lg:text-1xl">
 						{Mission}
 					</p>
