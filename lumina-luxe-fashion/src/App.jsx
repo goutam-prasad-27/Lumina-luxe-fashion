@@ -6,6 +6,7 @@ import AboutSection from "./Components/AboutSection";
 import MissionSection from "./Components/MissionSection";
 import ShoppingSection from "./Components/ShoppingSection";
 import ReviewSection from "./Components/ReviewSection";
+import ContactSection from "./Components/ContactSection";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<MissionSection />
 			<ShoppingSection />
 			<ReviewSection />
+			<ContactSection/>
 		</main>
 	);
 }
