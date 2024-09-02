@@ -32,3 +32,15 @@ h2{
 	font-family: boskaMedium;
 	text-transform: uppercase;
 }
+
+::-webkit-scrollbar{
+	width: 5px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(0deg, #ccb4d3, #0c0424);
+	border-radius: 20px;
+	height: 130px;
+}
+::-webkit-scrollbar-button{
+	display: none;
+}
