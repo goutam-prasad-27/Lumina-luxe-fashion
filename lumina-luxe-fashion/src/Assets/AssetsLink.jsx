@@ -29,61 +29,61 @@ export const Clothing = [
 		image: mainImage1,
 		title: "Emerald Chic",
 		description:
-			"A captivating ensemble featuring an oversized green jacket cinched at the waist, paired with bold red high-heeled shoes against a minimalist backdrop.",
+			"Oversized green jacket, bold red heels, minimalist backdrop.",
 	},
 	{
 		image: mainImage2,
 		title: "Coastal Chic",
 		description:
-			"Effortless summer style: a relaxed fit grey tee paired with breezy white shorts, embodying laid-back coastal elegance.",
+			"Grey tee, white shorts create laid-back coastal elegance. Casual and easy.",
 	},
 	{
 		image: mainImage3,
 		title: "Bohemian Chic",
 		description:
-			"A flowing, earth-toned skirt paired with a simple white top, capturing the essence of bohemian chic.",
+			"Earthy skirt, white top embody bohemian style.",
 	},
 	{
 		image: mainImage4,
 		title: "Twilight Chic",
 		description:
-			"A dynamic silhouette against the night sky, showcasing a street-style ensemble mid-motion.",
+			"Street-style ensemble in dynamic silhouette.",
 	},
 	{
 		image: mainImage5,
 		title: "Vest Chic",
 		description:
-			"Sleek navy vest paired with a crisp white shirt for a modern, smart-casual look.",
+			"Navy vest, white shirt, modern look.",
 	},
 	{
 		image: mainImage6,
 		title: "Cowboy Chic",
 		description:
-			"A silhouette in a wide-brimmed hat and classic vest, embodying rugged elegance at dusk.",
+			"Dusk silhouette in wide-brim hat, vest.",
 	},
 	{
 		image: mainImage7,
 		title: "Rebel Chic",
 		description:
-			"A striking pose in a black leather jacket and distressed denim, illuminated by the night’s glow.",
+			"Person wears black leather jacket and denim.",
 	},
 	{
 		image: mainImage8,
 		title: "Urban Chic",
 		description:
-			"High-waisted trousers paired with a relaxed white shirt, accented by suspenders, create a timeless yet modern ensemble.",
+			"High-waisted trousers, white shirt, trendy, classic outfit ensemble.",
 	},
 	{
 		image: mainImage9,
 		title: "Street Chic",
 		description:
-			"Sleek black and white ensemble with bold sneakers, perfect for urban adventures.",
+			"Stylish monochrome outfit with statement shoes.",
 	},
 	{
 		image: mainImage10,
 		title: "Retro Chic",
 		description:
-			"A poised stance in a textured tweed jumpsuit paired with a bold red blazer.",
+			"Elegant tweed jumpsuit with bold blazer.",
 	},
 ];
 
@@ -143,14 +143,14 @@ export const Contact = [
 export const Social = [
 	{
 		href: "http://instagram.com/",
-		icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
+		icon: <FaInstagram fontSize={30} className=" hover:text-[#ccb4d3]" />,
 	},
 	{
 		href: "http://x.com/",
-		icon: <FaTwitter fontSize={30} className="hover:opacity-80" />,
+		icon: <FaTwitter fontSize={30} className="hover:text-[#ccb4d3]" />,
 	},
 	{
 		href: "http://facebook.com/",
-		icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
+		icon: <FaFacebook fontSize={30} className="hover:text-[#ccb4d3]" />,
 	},
 ];

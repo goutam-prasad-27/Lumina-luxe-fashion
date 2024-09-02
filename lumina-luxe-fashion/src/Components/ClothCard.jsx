@@ -7,7 +7,7 @@ function ClothCard({ project }) {
 				className="rounded-3xl p-2"
 			/>
 			<div className="p-4">
-				<h3 className="mb-2 text-2xl font-bold tracking-[.1rem]">
+				<h3 className="mb-2 text-2xl font-bold">
 					{project.title}
 				</h3>
 				<p className="text-sm"> {project.description}</p>

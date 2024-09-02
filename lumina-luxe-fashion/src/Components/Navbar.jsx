@@ -38,7 +38,7 @@ function Navbar() {
 								idx !== 0
 									? "border-l-2 border-neutral-300/20 pl-2"
 									: ""
-							} hover:opacity-50`}
+							} hover:text-[#ccb4d3] hover:opacity-80`}
 							onClick={(e) =>
 								handleScroll(e, link.targetId)
 							}

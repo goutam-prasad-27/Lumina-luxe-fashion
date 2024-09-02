@@ -20,10 +20,10 @@ function ShoppingSection() {
 							/>
 						</div>
 						<div className=" pl-8">
-							<h3 className="text-2xl uppercase tracking-[.1rem] text-rose-300">
+							<h3 className="text-2xl uppercase">
 								{shop.title}
 							</h3>
-							<p className="mt-4 text-lg tracking-tighter">
+							<p className="mt-4 text-lg">
 								{shop.description}
 							</p>
 						</div>

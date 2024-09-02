@@ -10,19 +10,25 @@
 	box-sizing: border-box;
 }
 :root {
-	--background: #141619;
+	--background: #0c0424;
+	--headTextColor: #ccb4d3;
+	--mainTextColor: #f0fff0;
 }
 
 html,
 body {
 	background: var(--background);
 	font-family: switzer;
+	color: var(--mainTextColor);
 }
 
 h3{
 	font-family: boska;
+	color: var(--headTextColor);
 }
 
 h2{
-	color: #fda4af;
+	color: var(--headTextColor);
+	font-family: boskaMedium;
+	text-transform: uppercase;
 }
