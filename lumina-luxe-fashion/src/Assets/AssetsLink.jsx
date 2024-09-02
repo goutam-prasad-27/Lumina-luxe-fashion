@@ -33,9 +33,9 @@ export const Clothing = [
 	},
 	{
 		image: mainImage2,
-		title: "Coastal Chic",
+		title: "Comfort Chic",
 		description:
-			"Grey tee, white shorts create laid-back coastal elegance. Casual and easy.",
+			"Displaying casual outfit featuring beige jacket, black tee, cap.",
 	},
 	{
 		image: mainImage3,

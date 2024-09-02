@@ -4,7 +4,7 @@ function ClothCard({ project }) {
 			<img
 				src={project.image}
 				alt={project.title}
-				className="rounded-3xl p-2"
+				className="rounded-3xl p-2 h-[20rem] w-[20rem]  object-cover"
 			/>
 			<div className="p-4">
 				<h3 className="mb-2 text-2xl font-bold">
