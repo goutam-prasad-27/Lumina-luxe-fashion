@@ -1,6 +1,14 @@
 import { Shopping } from "../Assets/AssetsLink";
 import { motion } from "framer-motion";
 
+//? ShoppingSection is a component that renders a section displaying information about the brand's shopping options.
+//? It imports the Shopping array from the AssetsLink file and the Framer Motion library.
+//? The component renders a section with a title, a container, and a list of shopping options.
+//? Each shopping option is displayed using a div with an image and a description.
+//? The Framer Motion library is used to animate the elements, creating a smooth and visually appealing effect.
+//? The containerVar and itemVar objects define the variants for the container and items, respectively.
+//? These variants are used to control the appearance and behavior of the elements when they are shown or hidden.
+
 const containerVar = {
 	hidden: { opacity: 0 },
 	show: { opacity: 1 },
@@ -18,6 +26,7 @@ function ShoppingSection() {
 			<h2 className="my-8 text-center text-3x lg:text-4xl tracking-[.2rem]">
 				Shop Here
 			</h2>
+			//? animation on shopping section
 			<motion.div
 				initial="hidden"
 				whileInView="show"
@@ -25,6 +34,7 @@ function ShoppingSection() {
 				className="container mx-auto px-4"
 			>
 				{Shopping.map((shop, idx) => (
+					//? animation on shopping elements
 					<motion.div
 						variants={itemVar}
 						className="flex items-center border-b-4 border-dotted border-neutral-700/40 py-2"

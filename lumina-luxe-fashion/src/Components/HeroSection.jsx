@@ -3,6 +3,12 @@ import logo from "../Assets/Images/logo.png";
 import heroImage from "../Assets/Images/heroSection.jpg";
 import { motion } from "framer-motion";
 
+//? HeroSection is a component that displays the main hero section of the website.
+//? It includes a video background, a logo, and a text overlay.
+//? The video background is loaded from the heroVideo asset, and the logo is loaded from the logo asset.
+//? The text overlay is animated using the Framer Motion library to fade in and slide up.
+//? The component also includes a gradient background that fades from transparent to black.
+
 function HeroSection() {
 	return (
 		<section className="relative flex h-screen items-center justify-center">
@@ -22,6 +28,8 @@ function HeroSection() {
 				<div className="absolute inset-0  bg-gradient-to-bl from-transparent from-55% to-black">
 					<div className="relative z-20 flex h-screen flex-col justify-end pb-20">
 						<span className="flex items-center justify-center">
+
+						//? animation on the logo
 							<motion.img
 								initial={{ opacity: 0, y: 50 }}
 								animate={{ opacity: 1, y: 0 }}
@@ -31,6 +39,7 @@ function HeroSection() {
 								className="w-[70vw] p-4"
 							/>
 						</span>
+						//? animation on the text 
 						<motion.p
 							initial={{ opacity: 0, y: 50 }}
 							animate={{ opacity: 1, y: 0 }}

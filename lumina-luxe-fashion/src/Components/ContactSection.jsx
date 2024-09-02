@@ -1,5 +1,11 @@
 import { Contact } from "../Assets/AssetsLink";
 
+//? ContactSection is a component that renders a section displaying information about how to contact the brand.
+//? It imports the Contact object from the AssetsLink file.
+//? The component renders a section with a title and a list of contact details.
+//? The contact details are displayed using p tags, and each p tag is assigned a unique key.
+//? The component does not use any additional libraries or dependencies.
+
 function ContactSection() {
 	return (
 		<section className="container mx-auto py-16" id="contact">

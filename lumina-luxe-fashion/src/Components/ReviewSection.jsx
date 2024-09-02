@@ -4,7 +4,14 @@ import customer1 from "../Assets/Images/customer-1.jpg";
 import customer2 from "../Assets/Images/customer-2.jpg";
 import customer3 from "../Assets/Images/customer-3.jpg";
 import customer4 from "../Assets/Images/customer-4.jpg";
-import { motion} from "framer-motion";
+import { motion } from "framer-motion";
+
+//? ReviewSection is a component that renders a section displaying information about the brand's customer reviews.
+//? It imports the reviewImage, Review object, and customer images from the Assets file.
+//? The component renders a section with a content paragraph, an author image and information, and a grid of customer images.
+//? The Framer Motion library is used to animate the elements, creating a smooth and visually appealing effect.
+//? The containerVar and itemsVar objects define the variants for the container and items, respectively.
+//? These variants are used to control the appearance and behavior of the elements when they are shown or hidden.
 
 const containerVar = {
 	hidden: { opacity: 0 },
@@ -19,15 +26,19 @@ const itemsVar = {
 function ReviewSection() {
 	return (
 		<section className="container mx-auto mb-8 mt-12 " id="review">
+			//? animation on the review section
 			<motion.div
-			initial="hidden"
-			whileInView="show"
-			variants={containerVar}
-			viewport={{once: true}}
-			className="flex flex-col">
+				initial="hidden"
+				whileInView="show"
+				variants={containerVar}
+				viewport={{ once: true }}
+				className="flex flex-col"
+			>
+				//? animation on the paragraphs
 				<motion.p
-				variants={itemsVar}
-				className="mb-10 text-3xl leading-normal tracking-[.1rem] lg:mx-40 lg:mt-40 lg:text-[3.5rem]">
+					variants={itemsVar}
+					className="mb-10 text-3xl leading-normal tracking-[.1rem] lg:mx-40 lg:mt-40 lg:text-[3.5rem]"
+				>
 					{Review.content}
 				</motion.p>
 				<div className="flex items-center justify-center gap-6">
@@ -44,17 +55,18 @@ function ReviewSection() {
 					</div>
 				</div>
 			</motion.div>
-
-			<motion.div 
-			initial="hidden"
-			whileInView="show"
-			variants={itemsVar}
-			viewport={{once:true}}
-			className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row">
+			//? animation on the customer images
+			<motion.div
+				initial="hidden"
+				whileInView="show"
+				variants={itemsVar}
+				viewport={{ once: true }}
+				className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row"
+			>
 				{[customer1, customer2, customer3, customer4].map(
 					(customer, idx) => (
 						<motion.img
-						variants={itemsVar}
+							variants={itemsVar}
 							key={idx}
 							src={customer}
 							alt="customer"

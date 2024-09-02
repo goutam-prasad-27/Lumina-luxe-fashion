@@ -1,3 +1,9 @@
+//? ClothCard is a component that renders a card displaying information about a clothing project.
+//? It takes a project object as a prop, which contains the image, title, and description of the clothing project.
+//? The component renders an image of the clothing project, along with a title and description.
+//? The image is displayed using an img tag with the appropriate source, alt text, and CSS classes for styling.
+//? The title and description are displayed using h3 and p tags, respectively.
+
 function ClothCard({ project }) {
 	return (
 		<div>

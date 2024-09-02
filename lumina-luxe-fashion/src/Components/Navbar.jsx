@@ -5,6 +5,13 @@ import { Links } from "../Assets/AssetsLink";
 import { FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
 
+//? Navbar is a component that renders the navigation bar for the website.
+//? It includes a logo, a list of navigation links, and a hamburger menu for mobile devices.
+//? The navigation links are defined in the Links array, which is imported from the AssetsLink file.
+//? The component uses React's useState hook to manage the state of the mobile menu.
+//? The handleScroll function is used to smoothly scroll to the target section when a navigation link is clicked.
+//? The component renders different sets of navigation links based on the screen size, using CSS classes for responsive design.
+
 function Navbar() {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -48,6 +55,7 @@ function Navbar() {
 					))}
 				</div>
 
+					//? for mobile devices
 				<div className="lg:hidden">
 					<button onClick={toggleMobileMenu}>
 						{isMobileMenuOpen ? <FaTimes /> : <FaBars />}

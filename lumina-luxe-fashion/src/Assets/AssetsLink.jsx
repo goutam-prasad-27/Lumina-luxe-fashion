@@ -1,3 +1,15 @@
+//? AssetsLink.jsx is a file that contains various constants and objects used throughout the application.
+//? It exports the following data:
+//? - Links: an array of objects representing navigation links.
+//? - Clothing: an array of objects representing clothing items.
+//? - Shopping: an array of objects representing shopping options.
+//? - About: an object containing information about the company.
+//? - Mission: a string representing the company's mission.
+//? - Review: an object containing information about a customer's review.
+//? - Contact: an array of objects representing contact details.
+//? - Social: an array of objects representing social media icons and their corresponding URLs.
+//? This file is used to centralize and organize data, making it easier to maintain and update throughout the application.
+
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa6";
 
 import mainImage1 from "./Images/img-1.jpg";
