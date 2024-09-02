@@ -1,4 +1,16 @@
 import { Shopping } from "../Assets/AssetsLink";
+import { motion } from "framer-motion";
+
+const containerVar = {
+	hidden: { opacity: 0 },
+	show: { opacity: 1 },
+	transition: { staggerChildren: 1 },
+};
+const itemVar = {
+	hidden: { opacity: 0, y: 20 },
+	show: { opacity: 1, y: 0 },
+	transition: { duration: 0.8 },
+};
 
 function ShoppingSection() {
 	return (
@@ -6,9 +18,15 @@ function ShoppingSection() {
 			<h2 className="my-8 text-center text-3x lg:text-4xl tracking-[.2rem]">
 				Shop Here
 			</h2>
-			<div className="container mx-auto px-4">
+			<motion.div
+				initial="hidden"
+				whileInView="show"
+				variants={containerVar}
+				className="container mx-auto px-4"
+			>
 				{Shopping.map((shop, idx) => (
-					<div
+					<motion.div
+						variants={itemVar}
 						className="flex items-center border-b-4 border-dotted border-neutral-700/40 py-2"
 						key={idx}
 					>
@@ -27,9 +45,9 @@ function ShoppingSection() {
 								{shop.description}
 							</p>
 						</div>
-					</div>
+					</motion.div>
 				))}
-			</div>
+			</motion.div>
 		</section>
 	);
 }

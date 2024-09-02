@@ -4,14 +4,32 @@ import customer1 from "../Assets/Images/customer-1.jpg";
 import customer2 from "../Assets/Images/customer-2.jpg";
 import customer3 from "../Assets/Images/customer-3.jpg";
 import customer4 from "../Assets/Images/customer-4.jpg";
+import { motion} from "framer-motion";
+
+const containerVar = {
+	hidden: { opacity: 0 },
+	show: { opacity: 1, transition: { staggerChildren: 0.8 } },
+};
+
+const itemsVar = {
+	hidden: { opacity: 0, y: 20 },
+	show: { opacity: 1, y: 0, transition: { duration: 1 } },
+};
 
 function ReviewSection() {
 	return (
 		<section className="container mx-auto mb-8 mt-12 " id="review">
-			<div className="flex flex-col">
-				<p className="mb-10 text-3xl leading-normal tracking-[.1rem] lg:mx-40 lg:mt-40 lg:text-[3.5rem]">
+			<motion.div
+			initial="hidden"
+			whileInView="show"
+			variants={containerVar}
+			viewport={{once: true}}
+			className="flex flex-col">
+				<motion.p
+				variants={itemsVar}
+				className="mb-10 text-3xl leading-normal tracking-[.1rem] lg:mx-40 lg:mt-40 lg:text-[3.5rem]">
 					{Review.content}
-				</p>
+				</motion.p>
 				<div className="flex items-center justify-center gap-6">
 					<img
 						src={reviewImage}
@@ -25,12 +43,18 @@ function ReviewSection() {
 						</p>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 
-			<div className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row">
+			<motion.div 
+			initial="hidden"
+			whileInView="show"
+			variants={itemsVar}
+			viewport={{once:true}}
+			className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row">
 				{[customer1, customer2, customer3, customer4].map(
 					(customer, idx) => (
-						<img
+						<motion.img
+						variants={itemsVar}
 							key={idx}
 							src={customer}
 							alt="customer"
@@ -38,7 +62,7 @@ function ReviewSection() {
 						/>
 					)
 				)}
-			</div>
+			</motion.div>
 		</section>
 	);
 }
