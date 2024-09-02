@@ -1,10 +1,10 @@
 {
-  "name": "luminaluxe-fashion",
+  "name": "lumina-luxe-fashion",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 2676",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
