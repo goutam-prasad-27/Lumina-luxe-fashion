@@ -36,6 +36,9 @@ Lumina Luxe is a fashion brand website that showcases timeless, luxurious fashio
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
+## Author
+Goutam Prasad (@goutam-prasad-27)
+
 ## License
 
 -    This project is licensed under the MIT License - see the LICENSE file for details.
