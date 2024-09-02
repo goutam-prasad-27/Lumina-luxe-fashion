@@ -7,6 +7,7 @@ import MissionSection from "./Components/MissionSection";
 import ShoppingSection from "./Components/ShoppingSection";
 import ReviewSection from "./Components/ReviewSection";
 import ContactSection from "./Components/ContactSection";
+import FooterSection from "./Components/FooterSection";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<ShoppingSection />
 			<ReviewSection />
 			<ContactSection/>
+			<FooterSection/>
 		</main>
 	);
 }
