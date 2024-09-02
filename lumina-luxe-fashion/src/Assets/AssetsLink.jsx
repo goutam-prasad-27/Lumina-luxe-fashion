@@ -128,15 +128,15 @@ export const Review = {
 export const Contact = [
 	{
 		key: "address",
-		value: "123 Fashion Street, Bandra West, Mumbai, Maharashtra, India",
+		value: "Address: 123 Fashion Street, Bandra West, Mumbai, Maharashtra, India",
 	},
 	{
 		key: "phone",
-		value: "+91 98765 43210",
+		value: "Phone: +91 98765 43210",
 	},
 	{
 		key: "email",
-		value: "contact@luminaluxe.in",
+		value: "Email: contact@luminaluxe.in",
 	},
 ];
 
