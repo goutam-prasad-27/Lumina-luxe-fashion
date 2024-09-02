@@ -29,7 +29,6 @@ function HeroSection() {
 					<div className="relative z-20 flex h-screen flex-col justify-end pb-20">
 						<span className="flex items-center justify-center">
 
-						//? animation on the logo
 							<motion.img
 								initial={{ opacity: 0, y: 50 }}
 								animate={{ opacity: 1, y: 0 }}
@@ -39,7 +38,6 @@ function HeroSection() {
 								className="w-[70vw] p-4"
 							/>
 						</span>
-						//? animation on the text 
 						<motion.p
 							initial={{ opacity: 0, y: 50 }}
 							animate={{ opacity: 1, y: 0 }}

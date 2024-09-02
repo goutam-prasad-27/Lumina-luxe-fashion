@@ -26,7 +26,6 @@ const itemsVar = {
 function ReviewSection() {
 	return (
 		<section className="container mx-auto mb-8 mt-12 " id="review">
-			//? animation on the review section
 			<motion.div
 				initial="hidden"
 				whileInView="show"
@@ -34,7 +33,6 @@ function ReviewSection() {
 				viewport={{ once: true }}
 				className="flex flex-col"
 			>
-				//? animation on the paragraphs
 				<motion.p
 					variants={itemsVar}
 					className="mb-10 text-3xl leading-normal tracking-[.1rem] lg:mx-40 lg:mt-40 lg:text-[3.5rem]"
@@ -55,7 +53,6 @@ function ReviewSection() {
 					</div>
 				</div>
 			</motion.div>
-			//? animation on the customer images
 			<motion.div
 				initial="hidden"
 				whileInView="show"

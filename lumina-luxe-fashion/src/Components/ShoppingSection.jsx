@@ -26,7 +26,6 @@ function ShoppingSection() {
 			<h2 className="my-8 text-center text-3x lg:text-4xl tracking-[.2rem]">
 				Shop Here
 			</h2>
-			//? animation on shopping section
 			<motion.div
 				initial="hidden"
 				whileInView="show"
@@ -34,7 +33,6 @@ function ShoppingSection() {
 				className="container mx-auto px-4"
 			>
 				{Shopping.map((shop, idx) => (
-					//? animation on shopping elements
 					<motion.div
 						variants={itemVar}
 						className="flex items-center border-b-4 border-dotted border-neutral-700/40 py-2"

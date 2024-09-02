@@ -55,7 +55,6 @@ function Navbar() {
 					))}
 				</div>
 
-					//? for mobile devices
 				<div className="lg:hidden">
 					<button onClick={toggleMobileMenu}>
 						{isMobileMenuOpen ? <FaTimes /> : <FaBars />}

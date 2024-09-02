@@ -23,7 +23,6 @@ function AboutSection() {
 					/>
 				</div>
 				<div className="w-full px-2 lg:w-1/2">
-					//? animation on the header
 					<motion.h2
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -33,7 +32,6 @@ function AboutSection() {
 					>
 						{About.header}
 					</motion.h2>
-					//? animation on the line bar
 					<motion.div
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -41,7 +39,6 @@ function AboutSection() {
 						transition={{ duration: 0.6, delay: 0.4 }}
 						className="mb-8 mt-1 h-1.5 w-40 bg-[#ccb4d3] lg:-rotate-3"
 					></motion.div>
-					//? animation on the paragraph
 					<motion.p
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{ opacity: 1, y: 0 }}

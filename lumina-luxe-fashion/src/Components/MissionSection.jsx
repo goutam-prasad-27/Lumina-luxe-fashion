@@ -18,7 +18,6 @@ function MissionSection() {
 					Our Mission
 				</h2>
 				<div className="relative flex items-center justify-center">
-					//? animation on the video
 					<motion.video
 						initial={{ opacity: 0 }}
 						whileInView={{ opacity: 1 }}
@@ -40,7 +39,6 @@ function MissionSection() {
 						transition={{ duration: 0.5, delay: 0.5 }}
 						className="absolute h-full w-[90rem] rounded-3xl bg-[#141619]/70"
 					></motion.div>
-					//? animation on the paragraph
 					<motion.p
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
