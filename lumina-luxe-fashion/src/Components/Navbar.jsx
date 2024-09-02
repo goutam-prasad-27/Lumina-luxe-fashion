@@ -26,7 +26,7 @@ function Navbar() {
 	};
 
 	return (
-		<nav className="fixed top-4 flex w-full flex-col items-center justify-center">
+		<nav className="fixed top-4 flex w-full flex-col items-center justify-center z-50">
 			<div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-md lg:m-2 lg:w-[70rem] lg:rounded-full lg:shadow-lg">
 				<img src={logo} alt="Lumina Luxe" width={120} height={22} />
 				<div className="hidden space-x-6 lg:flex">
